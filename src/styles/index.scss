@@ -1,0 +1,17 @@
+@import './components/normalize';
+
+$main-color: tomato;
+
+.container {
+  min-width: 360px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+@import 'components/main';
+@import 'components/logo';
+@import '../header/sass/header-style';
+@import '../main/grid/sass/grid-style';
+@import '../main/modal/sass/modal-style';
+@import '../header/headerModal/sass/headerModal-style';

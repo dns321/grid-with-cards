@@ -1,0 +1,14 @@
+<div class='header-card-backdrop'>
+  <div class='header-card-modal'>
+    <button class='header-card-close'></button>
+    <ul class='header-list_news'>
+      {{#each this}}
+        <li class='header-list_item_news' id='{{publishedAt}}'>
+          <h3 class='header-list_title_news header-modal_title'>{{title}}</h3>
+          <p class='header-list_description_news inHidden'>{{description}}</p>
+          <button id='restoreNews'>Востановить</button>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
